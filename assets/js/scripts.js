@@ -1,12 +1,5 @@
-$(document).ready(function(){
-	// Mobile Menu
-	// $('.logo a i').click(function(){
-	// 	$('.menu ul').slideToggle(1000);
-
-	// 	return false
-	// });
-
-	// Banner Carousel
+$(document).ready(function(){ 
+	// Feature Carousel
 	$('.feature_carousel').owlCarousel({
 		items: 1,
 		loop: true,
@@ -20,8 +13,23 @@ $(document).ready(function(){
 		navText: [
 			'<span class="custom-nav prev"><i class="fa-solid fa-angle-left"></i></span>',
 			'<span class="custom-nav next"><i class="fa-solid fa-angle-right"></i></span>'
-		]
+		], 
 	});
+
+	// mobile menu 
+
+	$('.bars_icon').on('click', function (e) {
+		e.preventDefault();
+		$('.nav_box').slideToggle();
+	
+		const icon = $(this).find('i');
+		if (icon.hasClass('fa-bars')) {
+			icon.removeClass('fa-bars').addClass('fa-times');
+		} else {
+			icon.removeClass('fa-times').addClass('fa-bars');
+		}
+	});
+	
 	
 	
 

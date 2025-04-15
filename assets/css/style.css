@@ -375,6 +375,11 @@ p {
 	z-index: 99;
 }
 
+.nft_content {
+	position: relative;
+	z-index: 999999;
+}
+
 
 
  
@@ -475,6 +480,10 @@ p {
 	position: absolute;
 	top: 377px;
 	left: -87px;
+}
+
+.mobile_menu_btn {
+	display: none;
 }
 
 

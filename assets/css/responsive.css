@@ -4,18 +4,338 @@
     }
 }
 
+@media all and (max-width: 1800px){
+	.hero_shape_1 { 
+        left: 25px;
+    }
+    .hero_shape_5 {
+        left: 35px; 
+    }
+    
+}
+
+@media all and (max-width: 1550px){
+    .hero_shape_2 { 
+        right: 81px;
+    } 
+    .hero_shape_1 img {
+        width: 100px;
+    }
+    .hero_shape_5 img {
+        width: 86px;
+    }
+    .hero_shape_5 {
+        left: 10px;
+    }
+    .hero_shape_1 {
+        left: 2px;
+    }
+    .hero_shape_3 img {
+        width: 350px;
+    }
+    .hero_shape_4 img {
+        width: 250px;
+    }
+    .feature_shape_1 img {
+        width: 135px;
+    }
+}
+
+@media all and (max-width: 1400px){
+	.hero_content h2 { 
+        font-size: 50px; 
+    }
+    .feature_shape_1 img {
+        width: 97px;
+    }
+    p {  
+        font-size: 16px;
+        line-height: 25px; 
+        color: #fff;
+    }
+    .btn_2 { 
+        font-size: 16px; 
+    }
+    .btn_2 > img {
+        width: 50px;
+    }
+    .btn_shape { 
+        width: 210px !important;
+    }
+    .nav_box ul li a { 
+        font-size: 16px; 
+    }
+    .hero_man_img img {
+        width: 390px;
+        height: auto;
+    }
+    .hero_man_img { 
+        top: 36px;
+        right: 194px;
+    }
+    .hero_shape_2 img {
+        width: 98px;
+    }
+    .hero_area { 
+        height: 938px; 
+    }
+    .hero_shape_3 img {
+        width: 258px;
+    }
+    .hero_shape_3 {
+        left: 90px;
+        bottom: 111px; 
+    }
+    .hero_shape_5 { 
+        bottom: 368px; 
+    }
+    .hero_shape_4 img {
+        width: 202px;
+    }
+    .hero_shape_4 { 
+        bottom: 226px; 
+    }
+    .hero_shape_1 img {
+        width: 62px;
+    }
+    .hero_shape_1 { 
+        top: 132px; 
+    }
+    .feature_shape_1 { 
+        left: -68px;
+    }
+    .section_title h2 { 
+        font-size: 38px; 
+        margin-bottom: 15px;
+    }
+    .nft_content h3 { 
+        font-size: 32px; 
+    }
+    .feature_box .owl-prev { 
+        left: -70px;
+    }
+    .feature_box .owl-next { 
+        right: -70px;
+    }
+    .hero_shape_5 {
+        bottom: 209px;
+        left: -14px;
+    }
+}
+
+@media all and (max-width: 1200px){
+	.btn_1 { 
+        width: 195px; 
+    }
+    .hero_content h2 {
+        font-size: 32px;
+    }
+    .hero_content p { 
+        text-align: left; 
+    }
+    .hero_man_img { 
+        right: 171px;
+    }
+    .hero_shape_4 {
+        bottom: 156px;
+        right: 52px;
+    }
+    .hero_shape_3 img {
+        width: 191px;
+    }
+    .hero_shape_5 img {
+        width: 68px;
+    }
+    .feature_box .owl-next ,
+    .feature_box .owl-prev {
+        position: inherit; 
+    }
+    .feature_carousel .owl-nav .custom-nav { 
+        width: 45px;
+        height: 45px; 
+        font-size: 16px;
+    }
+}
+
+@media all and (min-width: 991px){
+    .nav_box {   
+        display: block !important;
+    }
+}
+
 @media all and (max-width: 991px){
-	
+    .nav_box {  
+        position: absolute;
+        background: #000B22;
+        width: 100%;
+        left: 0;
+        padding: 36px 0;
+        gap: 20px;
+        top: 88px;
+        height: 100vh;
+        z-index: 99999;
+        display: none;
+    }
+    .header_area {
+        z-index: 999999;
+    }
+    .nav_box ul { 
+        flex-direction: column;
+        gap: 15px;
+    }
+    .bars_icon {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        background: #fff;
+        border-radius: 10px;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+    }
+
+    .bars_icon:hover{
+        color: #000;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hero_shape_2 img {
+        width: 76px;
+    }
+    .hero_shape_2 {
+        right: 5px;
+    }
+    .hero_man_img img {
+        width: 320px; 
+    }
+    .hero_man_img {
+        right: 31px;
+    }
+    .hero_shape_4 img {
+        width: 109px;
+    }
+    .hero_shape_4 {
+        bottom: 156px;
+        right: 22px;
+    }
+    .hero_area {
+        height: 783px; 
+        background: url(../images/hero/bg.png) no-repeat scroll center center / cover; 
+    }
+    .hero_shape_3 img {
+        width: 155px;
+    }
+    .hero_shape_3 {
+        left: 76px;
+        bottom: 57px;
+    }
+    .hero_shape_5 {
+        bottom: 119px;
+        left: -14px;
+    }
+    .btn_3 { 
+        font-size: 14px; 
+    }
+    
+    .mobile_menu_btn {
+        display: block;
+    }
 }
 
 @media all and (max-width: 767px){
-	
+    .hero_man_img {
+        position: inherit;
+        text-align: center;
+        margin-top: 55px;
+    }
+    .hero_area {
+        height: auto; 
+    }
+    .hero_part {
+        padding-top: 155px; 
+    }
+
+    .first_nft .row ,
+    .third_nft .row {
+        flex-direction: column-reverse;
+    }
+    .nft_image { 
+        margin-bottom: 48px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 23px; 
+    }
+    .nft_content p { 
+        font-size: 14px;
+    }
+    .btn_3 {  
+        padding: 12px 28px; ;
+    }
+    .feature_single_item { 
+        padding: 30px 40px;
+    }
+    .hero_man_img img {
+        width: 228px;
+    }
+    .btn_2 {
+        font-size: 14px;
+    }
+    .hero_shape_2 { 
+        top: 334px; 
+    }
+    .hero_shape_1 {
+        top: 92px;
+    }
+    .hero_part {
+        padding-top: 179px;
+    }
+    .section_title { 
+        position: relative;
+        z-index: 99999;
+    }
+    .nft_image.second_nft img {
+        width: 100%;
+    }
 }
 
 @media all and (max-width: 575px){
-	
+	.hero_content h2 {
+        font-size: 30px;
+        line-height: 43px;
+    }
+    .hero_shape_3 img {
+        width: 97px;
+    }
+    .hero_shape_5 img {
+        width: 42px;
+    }
+    .section_title h2 {
+        font-size: 28px; 
+    }
+    .nft_content h3 {
+        font-size: 24px;
+    }
+    .logo img {
+        width: 190px;
+    }
+    .section_padding {
+        padding: 55px 0;
+    }
+    .section_title {
+        margin-bottom: 40px;
+    }
 }
 
 @media all and (max-width: 450px){
-	
+	.hero_shape_3 {
+        left: 44px;
+        bottom: 57px;
+    }
 }
