@@ -29,6 +29,9 @@ $(document).ready(function(){
 			icon.removeClass('fa-times').addClass('fa-bars');
 		}
 	});
+
+	// AOS 
+	AOS.init();
 	
 	
 	
