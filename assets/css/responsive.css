@@ -1,5 +1,7 @@
-@media all and (max-width: 1199px){
-
+@media all and (min-width: 1550px){
+    .sk_container {
+        max-width: 1464px;
+    }
 }
 
 @media all and (max-width: 991px){
