@@ -485,6 +485,34 @@ p {
 .mobile_menu_btn {
 	display: none;
 }
+  
+
+/* ANIMATION CSS  */
+
+
+.hero_shape_1,
+.hero_shape_2,
+.hero_shape_3,
+.hero_shape_4,
+.feature_shape_1,
+.hero_shape_5 { 
+	animation: floatUpDown 4s ease-in-out infinite;
+}
+ 
+.hero_shape_1 { 			animation-delay: 0s; 
+}
+.feature_shape_1 { 			animation-delay: 0s; 
+}
+.hero_shape_2 { animation-delay: 0.5s; }
+.hero_shape_3 { animation-delay: 1s; }
+.hero_shape_4 { animation-delay: 1.5s; }
+.hero_shape_5 { animation-delay: 2s; }
+ 
+@keyframes floatUpDown {
+	0% { transform: translateY(0); }
+	50% { transform: translateY(-15px); }
+	100% { transform: translateY(0); }
+}
 
 
  
