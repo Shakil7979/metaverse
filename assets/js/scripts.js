@@ -16,8 +16,9 @@ $(document).ready(function(){
 		], 
 	});
 
-	// mobile menu 
+	
 
+	// mobile menu  
 	$('.bars_icon').on('click', function (e) {
 		e.preventDefault();
 		$('.nav_box').slideToggle();
@@ -31,13 +32,11 @@ $(document).ready(function(){
 	});
 
 	// AOS 
-	AOS.init();
-	
-	
-	
+	AOS.init(); 
+});
 
 
-
-
-
+// Prealoader  
+$(window).on('load', function() {
+	$('#preloader').fadeOut(500); // fades out in 0.5 seconds
 });
