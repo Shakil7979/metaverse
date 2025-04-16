@@ -24,10 +24,10 @@ $(document).ready(function(){
 		$('.nav_box').slideToggle();
 	
 		const icon = $(this).find('i');
-		if (icon.hasClass('fa-bars')) {
-			icon.removeClass('fa-bars').addClass('fa-times');
+		if (icon.hasClass('fa-bars-staggered')) {
+			icon.removeClass('fa-bars-staggered').addClass('fa-times');
 		} else {
-			icon.removeClass('fa-times').addClass('fa-bars');
+			icon.removeClass('fa-times').addClass('fa-bars-staggered');
 		}
 	});
 
