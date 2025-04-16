@@ -81,7 +81,12 @@ p {
 	letter-spacing: 0%;
 	color: #ffff;
 	opacity: 80%;
+	transition: 0.3s;
 } 
+
+.nav_box ul li a:hover { 
+	opacity: 100%;
+}
 
 .btn_1 {
 	font-weight: 600 !important;
